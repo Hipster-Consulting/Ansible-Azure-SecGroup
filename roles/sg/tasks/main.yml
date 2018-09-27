@@ -1,0 +1,8 @@
+---
+
+- name: Create security group that allows SSH
+  azure_rm_securitygroup:
+    resource_group: '{{Azure_Resource_Group}}'
+    name: '{{Azure_SG_Name}}'
+    rules: '{{Azure_SG_Rules}}'
+      
