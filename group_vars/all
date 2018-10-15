@@ -4,15 +4,15 @@
 Azure_Resource_Group: 'azure-test'
 Azure_SG_Name: 'testSG'
 Azure_SG_Rules: 
-    - name: SSH
-        protocol: Tcp
-        destination_port_range: 22
-        access: Allow
-        priority: 101
-        direction: Inbound
-    - name: HTTP
-        protocol: Tcp
-        destination_port_range: 80
-        access: Allow
-        priority: 102
-        direction: Inbound
+    - name: 'SSH'
+        protocol: 'Tcp'
+        destination_port_range: '22'
+        access: 'Allow'
+        priority: '101'
+        direction: 'Inbound'
+    - name: 'HTTP'
+        protocol: 'Tcp'
+        destination_port_range: '80'
+        access: 'Allow'
+        priority: '102'
+        direction: 'Inbound'
